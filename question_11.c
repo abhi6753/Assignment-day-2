@@ -5,11 +5,12 @@
 #include<conio.h>
 int main()
 {
-    int num,digit;
+    int num;
+    short digit;
     printf("Enter a number:\n");
     scanf("%d",&num);
     printf("Enter a digit:\n");
-    scanf("%d",&digit);
+    scanf("%hi",&digit);
     printf("resulting number is %d",num*10+digit);
     getch();
     return 0;
